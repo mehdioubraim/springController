@@ -1,5 +1,6 @@
 package com.mehdi.spring.repository;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
@@ -29,7 +30,11 @@ public class EmployeeRepository implements ObjectRepository<Employee> {
 	}
 	
 	public List<Employee> getAll() {
-		return repository.values().stream().toList();
+		List<Employee> emps = new ArrayList<Employee>();
+		for (Employee emp : this.repository.values()) {
+			emps.add(emp);
+		}
+		return emps;
 	}
 	
 	@Override

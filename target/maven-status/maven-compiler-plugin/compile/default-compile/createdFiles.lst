@@ -1,0 +1,7 @@
+com\mehdi\spring\controller\EmployeeRestController.class
+com\mehdi\spring\model\Person.class
+com\mehdi\spring\model\Employee.class
+com\mehdi\spring\controller\PersonRestController.class
+com\mehdi\spring\repository\EmployeeRepository.class
+com\mehdi\spring\controller\HomeController.class
+com\mehdi\spring\repository\ObjectRepository.class
